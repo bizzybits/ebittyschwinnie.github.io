@@ -1,0 +1,37 @@
+header, .main {
+  background-color: #a571ff;
+  border: 2px dotted;
+  text-align: center;
+}
+
+.main {
+  margin-top: 10px;
+  padding: 10px 0px 20px 10px
+}
+
+body {
+  background: #eab4e9;
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #ffeb98
+}
+
+a:hover {
+  background-image: url
+  color: #fb996f;
+}
+
+a:link {
+  font-size: 10px;
+}
+
+a:visited {
+  font-size: 24px;
+}
+
+a:active {
+  font-size: 10px;
+}
