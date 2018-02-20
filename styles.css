@@ -17,6 +17,10 @@ header, .main {
   text-align: center;
 }
 
+.main p{
+  text-align: left;
+}
+
 body {
   background-image: url("/users/elizabeth_clarkson/Desktop/ebittyschwinnie.github.io/Image uploaded from iOS.jpg");;
   margin: 0px;
