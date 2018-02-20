@@ -2,7 +2,7 @@ header, .main {
   background-color: #a571ff;
   border: 3px solid rgb(22, 77, 100);
   border-radius: 5px;
-  margin-left: 50px;
+  margin-left: 150px;
   padding: 35px 75px 35px 75px;
   text-align: center;
   max-width: 900px;
@@ -12,8 +12,8 @@ header, .main {
 
 .main {
   margin-top: 10px;
-  margin-left: 50px;
-  padding: 10px 10px 500px 10px
+  margin-left: 150px;
+  padding: 35px 75px 35px 75px;
   text-align: center;
 }
 
@@ -48,7 +48,7 @@ p {
 }
 
 img {
-  margin-left: 50px;
+  margin-left: 150px;
   padding-top: 50px;
   text-align: center;
 }
