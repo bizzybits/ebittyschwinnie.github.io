@@ -10,7 +10,7 @@ header, .main {
 }
 
 body {
-  background: #eab4e9;
+  background-image: url("/users/elizabeth_clarkson/Desktop/ebittyschwinnie.github.io/Image uploaded from iOS.jpg");;
   margin: 0px;
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -20,7 +20,6 @@ a {
 }
 
 a:hover {
-  background-image: img src="Image uploaded from iOS.jpg"
   color: #fb996f;
 }
 
