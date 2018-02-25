@@ -22,9 +22,7 @@ header, .main {
 }
 
 .img {
-  position: relative;
-  top: 20px;
-  left: 50px;
+  position: static;
 }
 
 body {
