@@ -21,6 +21,12 @@ header, .main {
   text-align: left;
 }
 
+.img {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+
 body {
   background-image: url("beesechurger.jpg");
   margin: 0px;
@@ -49,10 +55,4 @@ a:active {
 
 p {
   image: center;
-}
-
-img {
-  margin: 50px 50px;
-  padding-top: 50px;
-  text-align: center;
 }
