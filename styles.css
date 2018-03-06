@@ -22,8 +22,8 @@ header, .main {
 }
 
 .img {
-  display:table-cell;vertical-align:middle;
-  "margin-left:auto;margin-right:auto;
+text-align: center;
+display: block;
 }
 
 body {
