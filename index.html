@@ -21,5 +21,41 @@
             alt="woman sitting on a bitchin' mountain bike;
                 she is giving a thumbs up in a bike shop">
       </p>
+      <div id="main_content" class="main">
+     <input id="money" type="number">
+     <a id="run_button">
+       Run
+     </a>
+     <div id='results'>
+       Press Run!
+     </div>
+   </div>
+
+   <script>
+     var run_button = document.getElementById('run_button');
+     var foodz = [
+       {'name':'taco', 'cost': 2},
+       {'name':'banana', 'cost': 1},
+       {'name':'steak', 'cost': 20},
+     ]
+
+     run_button.onclick = function() {
+       var money = document.getElementById('money');
+       var results = document.getElementById('results');
+       results.innerText = '';
+
+       var target_cost = money.value;
+
+       foodz.forEach(function(element) {
+         if (target_cost > element['cost']) {
+           var newDiv = document.createElement("div");
+           newDiv.className = 'something';
+           newDiv.innerText = element['name'];
+
+           results.appendChild(newDiv);
+         }
+       });
+     }
+   </script>
   </body>
 </html>
